@@ -21,6 +21,7 @@ public partial class ListEntryPage : ContentPage
             BindingContext = new ShopList()
         });
     }
+    //comment
     async void OnListViewItemSelected(object sender, SelectedItemChangedEventArgs e)
     {
         if (e.SelectedItem != null)
